@@ -7,13 +7,13 @@ st.set_page_config(
 st.markdown("""
 <style>
 .stApp {
-    background-color: black;
+    background-color: white;
     color: white;
 }
 </style>
 """, unsafe_allow_html=True)
 st.title("🎓 Student Profile Application")
-st.subheader("Developed by Student Name")
+st.subheader("LIKHITHA SK")
 
 st.info("Fill in your details and click View My Profile.")
 
