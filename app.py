@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.caption("🎓 Student Profile Application")
+st.title("🎓 Student Profile Application")
 st.caption("Developed by LIKHITHA SK")
 
 st.info("Fill in your details and click View My Profile.", icon="ℹ️")
@@ -12,7 +12,7 @@ year = st.radio("Current Year", ["1st Year", "2nd Year", "3rd Year", "4th Year"]
 
 if st.button("View My Profile"):
     st.success("Profile submitted successfully!", icon="✅")
-    st.write(f"Name: {name}")
-    st.write(f"Roll Number: {roll}")
-    st.write(f"Department: {dept}")
-    st.write(f"Year: {year}")
+    st.write("Name: "name)
+    st.write("Roll Number:" roll)
+    st.write("Department:" dept)
+    st.write("Year: " year)
