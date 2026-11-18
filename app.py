@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("🎓 Student Profile Application")
+st.caption("🎓 Student Profile Application")
 st.caption("Developed by LIKHITHA SK")
 
 st.info("Fill in your details and click View My Profile.", icon="ℹ️")
