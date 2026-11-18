@@ -12,7 +12,7 @@ year = st.radio("Current Year", ["1st Year", "2nd Year", "3rd Year", "4th Year"]
 
 if st.button("View My Profile"):
     st.success("Profile submitted successfully!", icon="✅")
-    st.write("Name: "name)
-    st.write("Roll Number:" roll)
-    st.write("Department:" dept)
-    st.write("Year: " year)
+    st.write("Name: ", name)
+    st.write("Roll Number:", roll)
+    st.write("Department:", dept)
+    st.write("Year: ", year)
